@@ -92,7 +92,7 @@ class_names = get_classes_from_folder(dataset_path)
 # --- FUNÇÕES ---
 @st.cache_resource
 def load_model():
-    model_path = r'C:\Users\Daniel\Desktop\3_ano\IC\TP\Source\Fase 3\modelo_final_mobilenet.h5'
+    model_path = 'modelo_final_mobilenet.h5'
     if os.path.exists(model_path):
         try:
             return tf.keras.models.load_model(model_path)
@@ -201,4 +201,5 @@ else:
 st.markdown("---")
 st.markdown(
     "<p style='text-align: center; font-size: 12px; color: #E0E0E0;'>Projeto Inteligência Computacional • Fase III</p>",
+
     unsafe_allow_html=True)
