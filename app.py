@@ -70,7 +70,7 @@ st.markdown("""
 
 # --- CLASSES DINÂMICAS ---
 # Ajusta este caminho se mudares de computador
-dataset_path = r"C:\Users\Daniel\Desktop\3_ano\IC\TP\Dataset\Skin_Diseases\kaggle\train"
+dataset_path = r"[Caminho/Pasta]"
 
 
 def get_classes_from_folder(path):
@@ -203,4 +203,5 @@ st.markdown(
     "<p style='text-align: center; font-size: 12px; color: #E0E0E0;'>Projeto Inteligência Computacional • Fase III</p>",
 
     unsafe_allow_html=True)
+
 
