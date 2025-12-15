@@ -12,5 +12,5 @@ O objetivo é classificar imagens de pele em 5 categorias utilizando técnicas d
 A aplicação está disponível online e não requer instalação.
 Clique no link abaixo para aceder:
 
-[LINK DA TUA APP STREAMLIT AQUI]
-*(Vais colar aqui o link depois de fazeres o Passo 5)*
+## Link para visualização da app
+https://dermoscanai.streamlit.app/
