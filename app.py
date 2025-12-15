@@ -82,7 +82,7 @@ def get_classes_from_folder(path):
         return sorted([d for d in items if os.path.isdir(os.path.join(path, d))])
     else:
         # Fallback de segurança caso a pasta não seja encontrada
-        return ['Acne', 'Eczema', 'Melanoma', 'Psoriasis', 'Seborrheic Keratosis']
+        return ['Acne', 'Benign', 'Ekzama', 'Enfeksiyonel', 'Malign']
 
 
 # Executar a função ao iniciar a app
@@ -203,3 +203,4 @@ st.markdown(
     "<p style='text-align: center; font-size: 12px; color: #E0E0E0;'>Projeto Inteligência Computacional • Fase III</p>",
 
     unsafe_allow_html=True)
+
